@@ -21,7 +21,7 @@ html, body {
 	grid-area: main;
 	align-items: center;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
 	grid-template-areas:
 /* 		'top top' */
 		'left right'
