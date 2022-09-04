@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wayfinder|Describe</title>
+	<link href="describe.css" rel="stylesheet" type="text/css" />
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+</head>
+
+<body>
+
+
+	<section>
+		
+		<nav class="top navbar" role="navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="index.html">
+      		<img src="https://cdn-icons-png.flaticon.com/128/45/45896.png" width="30px">
+   			</a>
+
+			</div>
+			<div class="navbar-menu">
+				<div class="navbar-end">
+					<a class="navbar-item navbar-end" href="index.html"><h6 class="subtitle">Quiz</h6></a>
+					<a class="navbar-item" href="#"><h6 class="subtitle">Description</h6></a>
+				</div>
+				
+			</div>
+			
+		</nav>
+		
+	</section>
+
+	<section class="hero is-success has-text-centered">
+		<div class="hero-body">
+			<p class="title">Description</p>
+			<p class="subtitle">Describe your dream location to receive our best recommendation</p>
+		</div>
+	</section>
+
+	<section class="section has-text-centered">
+		<div class="field">
+			<div class="control">
+				<textarea id="search" class="textarea" placeholder="e.g. Hello world"></textarea>
+				<button id="submit" class="button">Submit</button>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<p class="subtitle is-3">Result:</p>
+		<p id="place" class="subtitle is-3"></p>
+		<p id="description" class="subtitle is-5"></p>
+	</section>
+	
+	<script src="describe.js" defer></script> 
+</body>
+
+</html>
