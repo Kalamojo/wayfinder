@@ -118,6 +118,11 @@ p {
   background-color: white;
 }
 
+#result-section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* buttton styling from https://getcssscan.com/css-buttons-examples */
 
 /* CSS */
